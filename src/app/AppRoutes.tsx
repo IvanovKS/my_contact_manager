@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import ContactPage from '../pages/ContactPage';
-import ContactDetailPage from '@pages/ContactDetailPage';
-import NotFoundPage from '@pages/NotFoundPage';
+import ContactDetailPage from '../pages/ContactDetailPage';
+import NotFoundPage from '../pages/NotFoundPage';
 
 function AppRoutes() {
   return (
