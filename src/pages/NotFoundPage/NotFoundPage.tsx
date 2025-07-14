@@ -1,6 +1,6 @@
-import { Box, Button, Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import Lottie from 'lottie-react';
-import notFoundAnimation from '../../shared/assets/animations/notFound.json'
+import { Button, notFoundAnimation } from '@shared';
 
 function NotFoundPage() {
   return (

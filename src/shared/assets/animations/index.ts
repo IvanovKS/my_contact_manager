@@ -1,0 +1,1 @@
+export { default as notFoundAnimation } from './notFound.json';
