@@ -1,11 +1,10 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
-    "compilerOptions": {
+  "compilerOptions": {
     "baseUrl": "src",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["jest", "@testing-library/jest-dom", "node"],
+    "jsx": "react-jsx",
     "paths": {
       "@app/*": ["app/*"],
       "@shared/*": ["shared/*"],
@@ -15,5 +14,6 @@
       "@widgets/*": ["widgets/*"],
       "@processes/*": ["processes/*"]
     }
-  }
+  },
+  "include": ["src", "jest.setup.ts", "src/types"]
 }
