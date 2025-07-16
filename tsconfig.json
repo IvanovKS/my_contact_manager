@@ -8,6 +8,7 @@
     "paths": {
       "@app/*": ["app/*"],
       "@shared/*": ["shared/*"],
+      "@shared": ["shared/index.ts"],
       "@entities/*": ["entities/*"],
       "@features/*": ["features/*"],
       "@pages/*": ["pages/*"],
