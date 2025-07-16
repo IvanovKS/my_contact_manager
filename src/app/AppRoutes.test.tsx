@@ -2,9 +2,9 @@ import { MemoryRouter } from "react-router-dom";
 import { render, screen } from '@testing-library/react';
 import AppRoutes from "./AppRoutes";
 
-jest.mock('../pages/ContactPage', () => () => <div>Mock Contact Page</div>);
-jest.mock('../pages/ContactDetailPage', () => () => <div>Mock ContactDetail Page</div>);
-jest.mock('../pages/NotFoundPage', () => () => <div>Mock Not Found</div>);
+jest.mock('@pages/ContactPage', () => () => <div>Mock Contact Page</div>);
+jest.mock('@pages/ContactDetailPage', () => () => <div>Mock ContactDetail Page</div>);
+jest.mock('@pages/NotFoundPage', () => () => <div>Mock Not Found</div>);
 
 describe('AppRoutes', () => {
   it('renders ContactPage at path "/"', () => {

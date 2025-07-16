@@ -10,6 +10,7 @@ function NotFoundPage() {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
+        height: '100vh',
       }}
     >
       <Box
@@ -24,7 +25,6 @@ function NotFoundPage() {
       >
         <Lottie animationData={notFoundAnimation} loop={true} style={{ width: 300, height: 300 }} />
         <Button
-          variant="contained"
           href="/"
           sx={{
             mt: 3,
